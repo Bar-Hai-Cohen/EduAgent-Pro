@@ -3,6 +3,7 @@ openai
 python-dotenv
 python-docx
 langchain-core
+langchain-text-splitters
 langchain-community
 langchain-huggingface
 faiss-cpu
