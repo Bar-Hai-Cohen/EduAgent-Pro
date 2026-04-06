@@ -1,9 +1,9 @@
 streamlit
 openai
+python-dotenv
+python-docx
 langchain
 langchain-community
 langchain-huggingface
 faiss-cpu
 sentence-transformers
-python-docx
-python-dotenv
