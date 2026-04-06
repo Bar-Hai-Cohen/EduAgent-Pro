@@ -1,0 +1,13 @@
+🔗 לינקים חשובים לפרויקט EduAgent Pro:
+
+1. האתר החי (הצ'אט): 
+https://edu-agent-pro.streamlit.app
+
+2. לוח הבקרה של Streamlit (לביצוע Reboot וניהול):
+https://share.streamlit.io/
+
+3. דף הניהול של OpenAI (למעקב אחרי שימוש ותשלום):
+https://platform.openai.com/usage
+
+4. מפתח ה-API (לשמירה בטוחה - אל תפרסם לאחרים):
+sk-proj-OllILSFxV0fI4... (המפתח המלא שלך)
