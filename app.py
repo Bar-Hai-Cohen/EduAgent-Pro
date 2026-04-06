@@ -10,7 +10,20 @@ from dotenv import load_dotenv
 
 # --- 1. טעינת הגדרות ---
 load_dotenv()
-API_KEY = os.getenv("OPENAI_API_KEY")
+
+# מנגנון שבודק אם יש Secrets (לענן) או משתמש ב-ENV (למקומי) - מונע את השגיאה שקיבלת
+try:
+    if "OPENAI_API_KEY" in st.secrets:
+        API_KEY = st.secrets["OPENAI_API_KEY"]
+    else:
+        API_KEY = os.getenv("OPENAI_API_KEY")
+except Exception:
+    API_KEY = os.getenv("OPENAI_API_KEY")
+
+if not API_KEY:
+    st.error("🔑 שגיאה: מפתח ה-API חסר.")
+    st.stop()
+
 client = OpenAI(api_key=API_KEY)
 
 
