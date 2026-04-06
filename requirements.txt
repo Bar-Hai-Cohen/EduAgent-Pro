@@ -2,7 +2,7 @@ streamlit
 openai
 python-dotenv
 python-docx
-langchain
+langchain-core
 langchain-community
 langchain-huggingface
 faiss-cpu
